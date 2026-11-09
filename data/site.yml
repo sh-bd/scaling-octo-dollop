@@ -1,0 +1,277 @@
+site:
+  title: Shamim Haque | Engineering Portfolio
+  description: Information and Communication Engineering graduate focused on software quality assurance,
+    IT systems, web development, and applied AI.
+  theme_color: '#ffffff'
+  language: en
+profile:
+  brand: Shamim
+  brand_subtitle: Engineering portfolio
+  name: Md. Shamimul Haque
+  role: Information & Communication Engineer
+  headline: Software Quality Assurance, IT Systems, Web Development and AI
+  summary: I work across software quality assurance, IT support, networking, and web development. I enjoy
+    building reliable systems, solving practical technical problems, and exploring applied machine learning.
+  availability: Open to opportunities in software quality assurance, IT systems, DevOps, full-stack development,
+    and applied AI research.
+  location: Natore, Bangladesh
+  portrait: assets/profile.jpg
+  portrait_alt: Portrait of Md. Shamimul Haque
+  cv: assets/cv.pdf
+  highlights:
+  - label: Education
+    value: BAUET · Information and Communication Engineering, 2026
+  - label: Experience
+    value: 3+ years in software QA and IT support
+socials:
+- label: LinkedIn
+  url: https://www.linkedin.com/
+- label: GitHub
+  url: https://github.com/
+- label: Email
+  url: mailto:your.email@example.com
+about:
+  title: About me
+  lead: I am an Information and Communication Engineering graduate with experience in software quality
+    assurance, IT support, networking, and web development. My interests include software reliability,
+    automation, DevOps, and applied AI.
+  education:
+  - period: 2022 – 2026
+    degree: BSc in Information and Communication Engineering
+    institution: Bangladesh Army University of Engineering and Technology (BAUET)
+  - period: '2020'
+    degree: Higher Secondary Certificate (HSC)
+    institution: Rajshahi Shikkha Board
+  - period: '2018'
+    degree: Secondary School Certificate (SSC)
+    institution: Rajshahi Shikkha Board Government Model School and College
+  experience:
+  - role: IT & Network Administrator
+    organization: SilkCity Group
+    period: 2026 – Present
+    description: Provide IT and network support for 30+ users, maintain CCTV and network infrastructure,
+      troubleshoot hardware and software, and support internal web-based systems.
+    highlights:
+    - Maintain CCTV, network devices, and office IT infrastructure
+    - Develop and maintain internal invoice-generation tools and APIs
+    - Support users with hardware, software, and connectivity issues
+  - role: Junior Executive – IT (Part-time)
+    organization: SilkCity Group
+    period: 2023 – 2026
+    description: Started by developing and maintaining the company portfolio website, later taking on
+      broader IT responsibilities.
+    highlights:
+    - Developed and maintained the company portfolio website
+  - role: Industrial Trainee
+    organization: RampsBD, Rajshahi
+    period: May 2024 – June 2024
+    description: Completed industrial training with practical work involving Microsoft SQL Server 2019.
+    highlights:
+    - Worked with Microsoft SQL Server 2019
+certifications: []
+focus:
+- title: Software Quality Assurance
+  subtitle: API testing, test automation and quality processes
+  image: assets/qa.jpg
+  alt: Software testing workspace
+  target: '#work-qa'
+  theme: design
+- title: IT & Networking
+  subtitle: Infrastructure, troubleshooting and user support
+  image: assets/networking.jpg
+  alt: Network infrastructure
+  target: '#work-it'
+  theme: robotics
+- title: AI & Applied Research
+  subtitle: Computer vision and machine learning
+  image: assets/ai.jpg
+  alt: Machine learning visualization
+  target: '#work-ai'
+  theme: ai
+project_groups:
+- id: work-qa
+  title: Software Quality Assurance
+  description: Testing, API validation and automation.
+  theme: design
+  projects:
+  - id: api-testing
+    type: QA project
+    title: API testing with Postman
+    summary: API validation and structured test coverage for backend services.
+    description: Document endpoints, validate request and response behavior, check status codes and payloads,
+      and report defects with reproducible steps.
+    tags:
+    - Postman
+    - REST API
+    - Test cases
+    image: assets/projects/api-testing.jpg
+    alt: API testing project image
+    links: []
+  - id: selenium-automation
+    type: Automation
+    title: Web test automation with Selenium
+    summary: Browser automation for repeatable functional checks.
+    description: A collection of automated checks for web application workflows. Add repository links,
+      screenshots, and test coverage details as the project evolves.
+    tags:
+    - Selenium
+    - Python
+    - Automation
+    image: assets/projects/selenium.jpg
+    alt: Browser automation project image
+    links: []
+- id: work-it
+  title: IT Systems & Web Development
+  description: Internal tools, deployment and infrastructure support.
+  theme: robotics
+  projects:
+  - id: silkcity-invoice
+    type: Internal application
+    title: SilkCity Invoice Generator
+    summary: An internal invoice-generation system with a Node.js API and React client.
+    description: Developed an invoice-generation workflow using a Node.js API and a Vite React client,
+      with deployment on Vercel.
+    tags:
+    - Node.js
+    - React
+    - Vite
+    - Vercel
+    image: assets/projects/invoice.jpg
+    alt: Invoice generator screenshot
+    links: []
+  - id: portfolio-site
+    type: Web development
+    title: Company portfolio website
+    summary: Website development and maintenance for SilkCity Group.
+    description: Built and maintained a company portfolio website as an initial IT assignment. Add a live
+      URL or repository when ready.
+    tags:
+    - Web development
+    - HTML
+    - CSS
+    - JavaScript
+    image: assets/projects/website.jpg
+    alt: Website project screenshot
+    links: []
+- id: work-ai
+  title: AI & Applied Research
+  description: Machine learning, computer vision and explainable AI.
+  theme: ai
+  projects:
+  - id: ovarian-xai
+    type: Research · IEEE paper
+    title: 'Transparent Diagnosis: Explainable AI for Ovarian Cancer Subtype Identification'
+    summary: CNN-based five-class ovarian cancer subtype classification using EfficientNetV2-S and SHAP
+      explanations.
+    description: Fine-tuned EfficientNetV2-S for five ovarian cancer subtype classes and used SHAP to
+      interpret model predictions. Add the final publication link, figures, and supplementary materials
+      when available.
+    tags:
+    - PyTorch
+    - EfficientNetV2-S
+    - SHAP
+    - Explainable AI
+    - Medical imaging
+    image: assets/projects/ovarian-xai.jpg
+    alt: Ovarian cancer classification explanation visualization
+    links: []
+  - id: bdslw401
+    type: Computer vision
+    title: Bangladeshi Sign Language Recognition
+    summary: Exploring sequence models for sign-language recognition using MediaPipe landmarks.
+    description: A video-based sign-language recognition workflow using extracted pose and hand landmarks
+      with sequence models such as LSTM, GRU, and Transformer architectures.
+    tags:
+    - Python
+    - MediaPipe
+    - LSTM
+    - GRU
+    - Computer Vision
+    image: assets/projects/sign-language.jpg
+    alt: Sign language recognition project visualization
+    links: []
+skills:
+- group: Software Quality Assurance
+  tools:
+  - name: Postman
+    project: api-testing
+  - name: Selenium
+    project: selenium-automation
+  - name: Bugzilla
+  - name: Trello
+  - name: Manual testing
+  - name: Test case design
+- group: IT & Web Development
+  tools:
+  - name: Networking
+  - name: CCTV systems
+  - name: Linux
+  - name: Git & GitHub
+  - name: Node.js
+    project: silkcity-invoice
+  - name: React
+    project: silkcity-invoice
+  - name: Vite
+    project: silkcity-invoice
+  - name: SQL Server
+- group: AI & Data Science
+  tools:
+  - name: Python
+  - name: PyTorch
+  - name: Scikit-learn
+  - name: Computer Vision
+  - name: MediaPipe
+    project: bdslw401
+  - name: SHAP
+    project: ovarian-xai
+- group: Supporting tools
+  tools:
+  - name: Microsoft Office
+  - name: LaTeX
+  - name: Jupyter Notebook
+  - name: Google Colab
+research:
+  intro: Topics I want to explore through research and engineering work.
+  groups:
+  - title: AI in Healthcare
+    items:
+    - title: Explainable AI
+      description: Interpretable machine-learning methods for high-stakes classification.
+      project: ovarian-xai
+    - title: Biomedical computer vision
+      description: Deep-learning approaches to medical image analysis.
+  - title: Computer Vision
+    items:
+    - title: Sign-language recognition
+      description: Video understanding and temporal modeling for sign language.
+      project: bdslw401
+    - title: Human-centered vision systems
+      description: Robust visual recognition in practical environments.
+  - title: Software & Systems
+    items:
+    - title: Software test automation
+      description: Reliable, maintainable automated testing workflows.
+      project: selenium-automation
+    - title: DevOps and infrastructure
+      description: Deployment, monitoring, and dependable IT systems.
+beyond:
+  title: Beyond engineering
+  items:
+  - title: Film
+    description: A different way of looking at people and their stories.
+  - title: Reading
+    description: Curiosity across technology, philosophy, and society.
+  - title: Learning
+    description: Exploring ideas and building things beyond my usual field.
+contact:
+  eyebrow: Let’s talk
+  title: Get in touch
+  description: For engineering opportunities, research collaborations, or technical projects, send me
+    a note.
+  email: your.email@example.com
+  phone: ''
+  location: Natore, Bangladesh
+  formspree_id: YOUR_FORMSPREE_ID
+footer:
+  copyright: © 2026 Md. Shamimul Haque
+  tagline: Software QA · IT Systems · Web Development · Applied AI
